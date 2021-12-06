@@ -1,6 +1,6 @@
 exports.handler = async function (context, event, callback) {
   const client = context.getTwilioClient(); // twilio client needed to make or update live calls.
-  const baseUrl = "https://my-conference-project-8370-dev.twil.io/conference"; // the public endpoint to this function.
+  const baseUrl = ""; // the public endpoint to this function.
 
   // function that should be a database query to look up the agent phone numbers
   // who should be reached out to if a call is received to this inbound phone number.
