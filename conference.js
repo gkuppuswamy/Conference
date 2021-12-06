@@ -5,7 +5,7 @@ exports.handler = async function (context, event, callback) {
   // function that should be a database query to look up the agent phone numbers
   // who should be reached out to if a call is received to this inbound phone number.
   function getListOfAgentsToTry() {
-    return ["+12604600873", "+12692174879"];
+    return ["+1XXXXXXXXXX", "+1XXXXXXXXXX"];
   }
 
   // if no agents pick up the phone, we simply play a message to the caller to ask
